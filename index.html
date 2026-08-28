@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIVYA-SmartEdu | AICTE SIH 2026 Smart Education Platform</title>
+    <meta name="description" content="AICTE SIH 2026 Problem Statement 26205 - Inclusive Smart Education Platform with Dyslexia Reader, Hand Sign Vision AI, Live Classroom, Teacher Booking & Adaptive Flashcard Quizzes" />
+    
+    <!-- Google Fonts for High Legibility & Premium Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- OpenDyslexic Web Font for Dyslexia Accessibility -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/opendyslexic@1.0.3/open-dyslexic.min.css" />
+
+    <!-- Tailwind CSS CDN for Guaranteed Universal Instant Rendering -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0fdf4',
+                100: '#dcfce7',
+                500: '#22c55e',
+                600: '#16a34a',
+                700: '#15803d',
+              },
+              cyber: {
+                dark: '#0a0f1d',
+                card: '#111827',
+                border: 'rgba(255, 255, 255, 0.08)',
+                glow: '#6366f1'
+              }
+            },
+            fontFamily: {
+              outfit: ['Outfit', 'sans-serif'],
+              lexend: ['Lexend', 'sans-serif'],
+              dyslexic: ['OpenDyslexic', 'Lexend', 'sans-serif'],
+              jakarta: ['Plus Jakarta Sans', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#0a0f1d] text-slate-100 antialiased min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
